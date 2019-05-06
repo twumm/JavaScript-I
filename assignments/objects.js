@@ -28,24 +28,24 @@ const antonietta = { "id": 5, "name": "Antonietta", "email": "adaine5@samsung.co
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(interns[0].name)
+console.log(mitzi.name)
 
 // Kennan's ID
-console.log(interns[1].id)
+console.log(kennan.id)
 
 // Keven's email
-console.log(interns[2].email)
+console.log(keven.email)
 
 // Gannie's name
-console.log(interns[3].name)
+console.log(gannie.name)
 
 // Antonietta's Gender
-console.log(interns[4].gender)
+console.log(antonietta.gender)
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-interns[1].speak = () => "Hello, my name is Kennan!"
-console.log(kennan.speak());
+
+// console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
