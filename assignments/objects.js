@@ -29,14 +29,19 @@ const interns = [{ "id": 1, "name": "Mitzi", "email": "mmelloy0@psu.edu", "gende
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(interns[0].name)
 
 // Kennan's ID
+console.log(interns[1].id)
 
 // Keven's email
+console.log(interns[2].email)
 
 // Gannie's name
+console.log(interns[3].name)
 
 // Antonietta's Gender
+console.log(interns[4].gender)
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
