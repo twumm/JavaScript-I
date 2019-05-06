@@ -5,9 +5,7 @@ console.log("Function was invoked!");
 };
 myFunction();
 
-let anotherFunction = (param) => {
-  return param;
-};
+let anotherFunction = (param) => param;
 anotherFunction("Example");
 
 let add = (param1, param2) => param1 + param2;
